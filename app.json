@@ -21,22 +21,27 @@
         "BOT_TOKEN": {
             "description": "Your bot token.",
             "value": ""
+            "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "value": ""
+            "required": false
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "value": ""
+            "required": false
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "value": ""
+            "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
             "value": ""
+            "required": false
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
@@ -99,17 +104,17 @@
         "DATABASE_1": {
             "description": "Broadcast Group Database",
             "value": "",
-            "required": true
+            "required": false
         },
         "ADMIN_ID": {
             "description": "Control BroadCast",
             "value": "",
-            "required": true
+            "required": false
         },
         "BROADCAST_CHANNEL": {
             "description": "ID of a Channel (user Notification)",
             "value": "",
-            "required": true
+            "required": false
         }
     },
     "addons": [],
